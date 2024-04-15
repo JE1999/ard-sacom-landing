@@ -1,0 +1,50 @@
+nav {
+    height: 75px; 
+    padding: 5px; 
+    position: absolute; 
+    width: 100%; 
+    background: white;
+}
+.hero {
+    width: 100%;
+    height: 100vh;
+    background: url("./images/hero.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.layer { 
+    width: 100%;
+    height: 100vh;
+    background: rgba(17, 34, 122, 0.50);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 20px;
+}
+
+footer {
+    position: fixed;
+    text-align: center;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background: white;
+    color: #01136E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 20px !important;
+    }
+}
