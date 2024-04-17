@@ -44,9 +44,7 @@ footer {
     align-items: center;
 }
 
-.titulo {
-   padding-top: 400px;
-}
+
 
 @media only screen and (max-width: 600px) {
     h1 {
