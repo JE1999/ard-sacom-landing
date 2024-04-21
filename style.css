@@ -70,3 +70,13 @@ footer {
     }
     
   }
+
+  @media screen and (max-width: 300px) {
+    .bienvenido {
+        display: none;
+    }
+  }
+
+  nav{
+    background: linear-gradient(90deg, rgb(6, 5, 84) 0%, rgb(13, 47, 144) 80%);
+  }
