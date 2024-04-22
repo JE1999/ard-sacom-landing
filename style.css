@@ -2,8 +2,8 @@ nav {
     height: 75px; 
     padding: 5px; 
     position: absolute; 
-    width: 100%; 
-    background: white;
+    width: 100%;
+    background: linear-gradient(90deg, rgb(6, 5, 84) 0%, rgb(13, 47, 144) 80%); 
 }
 .hero {
     width: 100%;
@@ -43,6 +43,12 @@ footer {
     align-items: center;
 }
 
+.selector {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+  margin-top: -50px;
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -77,6 +83,15 @@ footer {
     }
   }
 
+  @media screen and (max-width: 700px) {
+    .selector {
+      display: flex;
+      justify-content: end;
+      margin-right: 15px;
+      margin-top: 15px;
+    }
+  }
+
   @media screen and (max-width: 743px) {
     .hero {
       width: 100%;
@@ -88,6 +103,4 @@ footer {
 
     }
   }
-  nav{
-    background: linear-gradient(90deg, rgb(6, 5, 84) 0%, rgb(13, 47, 144) 80%);
-  }
+  
