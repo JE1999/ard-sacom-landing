@@ -27,6 +27,7 @@ nav {
     display: flex;
     justify-content: center;
     flex-direction: row;
+    margin: 0 10px;
     gap: 20px;
 }
 
@@ -43,7 +44,7 @@ footer {
     align-items: center;
 }
 
-.selector {
+.select {
   display: flex;
   justify-content: end;
   margin-right: 15px;
@@ -53,38 +54,35 @@ footer {
 
 @media only screen and (max-width: 600px) {
     h1 {
-        font-size: 20px !important;
+      font-size: 20px !important;
     }
+
+    .buttons {
+      flex-direction: column;
+    }  
 }
 
 
 @media screen and (min-width: 629px) {
-    .bienvenido {
+    .welcome {
       font-size: 60px;
     }
-    .entrada {
+    .sub-title {
         font-size: 30px;
     }
   }
 
   @media screen and (min-width: 441px) {
-    .bienvenido {
+    .welcome {
       font-size: 50px;
     }
-    .entrada {
-        font-size: 25px;
-    }
-    
-  }
-
-  @media screen and (max-width: 300px) {
-    .bienvenido {
-        display: none;
+    .sub-title {
+      font-size: 25px;
     }
   }
 
   @media screen and (max-width: 700px) {
-    .selector {
+    .select {
       display: flex;
       justify-content: end;
       margin-right: 15px;
@@ -94,13 +92,10 @@ footer {
 
   @media screen and (max-width: 743px) {
     .hero {
-      width: 100%;
-      height: 100vh;
       background: url(images/mobilecarroybarco.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-
     }
   }
   
