@@ -51,6 +51,7 @@ footer {
   margin-top: -50px;
 }
 
+/* este css sobre el selector no esta activo actualmente por que el elemento en el html esta comentado */
 .selector {
   display: flex;
   justify-content: end;
