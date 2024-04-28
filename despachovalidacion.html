@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despacho</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="validacion.css">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                clifford: '#da373d',
+                marine:
+              }
+            }
+          }
+        }
+      </script>
+      <style type="text/tailwindcss">
+        @layer utilities {
+          .content-auto {
+            content-visibility: auto;
+          }
+        }
+      </style>
+</head>
+<body>
+    <body class="bg-blue-950">
+        <header class="">
+          <div class="flex justify-center mt-14 lg:mt-16 -mb-16 lg:-mb-26">
+          <img class="" src="/images/logo1.png" alt="">
+        </div>
+        </header>
+        <div class="flex justify-center items-center min-h-screen">
+          <div class="p-8 bg-slate-300 rounded-lg">
+           <div>
+            <h1 class="title text-center">Validación de datos</h1>
+            <h1 class="text-center text-2xl">Detalle tipo movimiento: <br>Despacho</h1>
+            <!-- primera columna -->
+            <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3 border-b-2 border-slate-950 pb-3">
+              <div class="text-center font-bold text-xl">Número de solicitud: 38 </div>
+              <div class="text-center font-bold text-xl">Fecha de solicitud: 09-08-2023</div>
+              <div class="flex justify-center font-bold text-xl"><h1>Estatus:</h1><h1 class="ml-2 bg-sky-500/30 rounded-lg proceso text-blue-700">En proceso</h1></div>
+            </div>
+            <!-- fin primera columna -->
+            <h1 class="text-center font-bold text-2xl mt-3">Información de la embarcación</h1>
+            <!-- segunda  columma -->
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-3 gap-3 border-b-2 border-slate-950 pb-3">
+      <div class="flex justify-center bg-white rounded-full"><h1>Matrícula:</h1><h1 class="ml-2">123345454</h1> </div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Nombre de la embarcación:</h1><h1 class="ml-2">La barquita</h1></div>
+      <div class="flex justify-center bg-white rounded-full"><h1>No Chasis:</h1><h1 class="ml-2">2343412</h1></div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Cantidad de tripulantes:</h1><h1 class="ml-2">7</h1></div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Cantidad de pasajeros:</h1><h1 class="ml-2">4</h1></div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Tipo de tripulación:</h1><h1 class="ml-2">Turismo</h1></div>
+      </div>
+
+            <!-- <h1 class="text-center font-bold text-2xl mt-3">Información del Conductor</h1>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 border-b-2 border-slate-950 pb-3">
+      <div class="flex justify-center bg-white rounded-full"><h1>Nombre:</h1><h1 class="ml-2">Dean Winchester</h1></div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Documento de Identidad:</h1><h1 class="ml-2">000-00000-8</h1></div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Teléfono:</h1><h1 class="ml-2"></h1>809-555-5555</div>
+      <div class="flex justify-center bg-white rounded-full"><h1>Fecha de salida:</h1><h1 class="ml-2">23/5/23</h1></div>
+      </div> -->
+
+
+      <!-- fin de la tercera columna -->
+      <h1 class="text-center font-bold text-2xl mt-3">Información del capitán</h1>
+      <div class="mt-4 grid grid-cols-1 md:grid-cols-2 gap-3 border-b-2 border-slate-950 pb-3">
+        <div class="flex justify-center bg-white rounded-full"><h1>Nombre:</h1><h1 class="ml-2">Sam Winchester</h1></div>
+        <div class="flex justify-center bg-white rounded-full"><h1>Documento de identidad:</h1><h1 class="ml-2"></h1>213909</div>
+        <div class="flex justify-center bg-white rounded-full"><h1>Télefono:</h1><h1 class="ml-2">12392192</h1></div>
+        <div class="flex justify-center bg-white rounded-full"><h1>Fecha de salida:</h1><h1 class="ml-2">12-21-90</h1></div>
+        <div class="flex justify-center bg-white rounded-full"><h1>Lugar de salida:</h1><h1 class="ml-2">Distrito nacional</h1></div>
+        <div class="flex justify-center bg-white rounded-full"><h1>Lugar de destino:</h1><h1 class="ml-2">Bayahibe</h1></div>
+        <div class="flex md:col-span-2  bg-white rounded-md"><h1>Motivo del viaje:</h1><p class="ml-2 text-wrap">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam cursus metus eu purus posuere pulvinar.</p></div>
+      
+        </div>
+           </div>
+          </div>
+        </div>
+        
+    
+</body>
+</html>
