@@ -82,7 +82,7 @@ footer {
     }
   }
 
-  @media screen and (min-width: 441px) {
+  @media screen and (min-width: 380px) {
     .welcome {
       font-size: 50px;
     }
