@@ -44,14 +44,16 @@ footer {
     align-items: center;
 }
 
-
-
 .lang {
   display: flex;
   justify-content: end;
   margin-right: 15px;
   margin-top: -50px;
 }
+
+  .welcome {
+      font-size: 60px;
+    }
 
 /* este css sobre el selector no esta activo actualmente por que el elemento en el html esta comentado */
 /* .selector {
@@ -87,21 +89,18 @@ footer {
   }
 } */
 
-@media screen and (min-width: 629px) {
+@media screen and (max-width: 629px) {
     .welcome {
-      font-size: 60px;
+      font-size: 45px;
     }
     .sub-title {
         font-size: 30px;
     }
   }
 
-  @media screen and (min-width: 380px) {
+  @media screen and (max-width: 380px) {
     .welcome {
-      font-size: 50px;
-    }
-    .sub-title {
-      font-size: 30px;
+      font-size: 40px;
     }
   }
 
