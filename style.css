@@ -90,6 +90,23 @@ footer {
       font-size: 60px;
     }
 
+
+    /* codigo para ver si logro mover el h1 mas arriba */
+    /* Si no le pones !important no aceptaras lo que le pongas */
+
+/* Un responsive para pantallas 1024pixeles */
+
+
+/* fin del responsive  */
+
+/* este lo hago para que entrada internacionales no suba tanto */
+
+
+    /* cierre de ese codigo */
+
+
+
+
 /* este css sobre el selector no esta activo actualmente por que el elemento en el html esta comentado */
 /* .selector {
   display: flex;
@@ -101,9 +118,19 @@ footer {
 
 @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 20px !important;
+      font-size: 25px !important;
+      /* cosas que si no funciona puedo borrar esto */
+      /* esto lo estoy utilizando para mover el h1 un poco mas arriba */
+      margin-top: -80px !important;
+      /* en caso de que se dañe algo */
     }
 
+    /* otro intento de ver que funciona */
+.sub-title {
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+/* otro intento de ver que funciona */
     .buttons {
       display: flex;
       flex-direction: column;
@@ -113,6 +140,27 @@ footer {
     .buttons button {
       width: 244px !important;
     }
+}
+
+/* intento del responsive no se rompa verticalmente */
+@media only screen and (max-height: 1100px) {
+  h1 {
+    font-size: 20px !important;
+    margin-top: 100px !important;
+  }
+/* en caso recordar que puedo borrar por aqui */
+
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }  
+  .buttons button {
+    width: 244px !important;
+  }
 }
 
 
@@ -131,10 +179,10 @@ footer {
 
 @media screen and (max-width: 629px) {
     .welcome {
-      font-size: 45px;
+      font-size: 55px;
     }
     .sub-title {
-        font-size: 30px;
+        font-size: 20px;
     }
   }
 
