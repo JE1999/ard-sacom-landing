@@ -77,6 +77,15 @@ footer {
   margin-top: -50px;
 }
 
+/* .estilo1 {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+  margin-top: -50px;
+} */
+
+
+
   .welcome {
       font-size: 60px;
     }
@@ -140,7 +149,7 @@ footer {
       display: flex;
       justify-content: end;
       margin-right: 15px;
-      margin-top: 15px !important;
+      margin-top: 15px;
     }
   }
 
