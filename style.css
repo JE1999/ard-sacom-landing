@@ -1,6 +1,11 @@
+body {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 nav {
     height: 75px; 
-    padding: 5px; 
     position: absolute; 
     width: 100%;
     background: linear-gradient(90deg, rgb(6, 5, 84) 0%, rgb(13, 47, 144) 80%); 
@@ -29,6 +34,27 @@ nav {
     flex-direction: row;
     margin: 0 10px;
     gap: 20px;
+}
+
+.button-primary-ard {
+  width: 244px;
+  height: 50px;
+  border: 1px solid #01136E;
+  color: #01136E;
+  background: white;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+}
+.button-secondary-ard {
+  width: 244px;
+  height: 50px;
+  color: white;
+  background: #FF0000;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
 }
 
 footer {
