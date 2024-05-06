@@ -89,9 +89,35 @@ footer {
   margin-top: -50px;
 }
 
+/* .estilo1 {
+  display: flex;
+  justify-content: end;
+  margin-right: 15px;
+  margin-top: -50px;
+} */
+
+
+
   .welcome {
       font-size: 60px;
     }
+
+
+    /* codigo para ver si logro mover el h1 mas arriba */
+    /* Si no le pones !important no aceptaras lo que le pongas */
+
+/* Un responsive para pantallas 1024pixeles */
+
+
+/* fin del responsive  */
+
+/* este lo hago para que entrada internacionales no suba tanto */
+
+
+    /* cierre de ese codigo */
+
+
+
 
 /* este css sobre el selector no esta activo actualmente por que el elemento en el html esta comentado */
 /* .selector {
@@ -104,9 +130,19 @@ footer {
 
 @media only screen and (max-width: 600px) {
     h1 {
-      font-size: 20px !important;
+      font-size: 25px !important;
+      /* cosas que si no funciona puedo borrar esto */
+      /* esto lo estoy utilizando para mover el h1 un poco mas arriba */
+      margin-top: -80px !important;
+      /* en caso de que se dañe algo */
     }
 
+    /* otro intento de ver que funciona */
+.sub-title {
+  margin-top: 100px;
+  margin-bottom: 0px;
+}
+/* otro intento de ver que funciona */
     .buttons {
       display: flex;
       flex-direction: column;
@@ -118,13 +154,34 @@ footer {
     }
 }
 
+/* intento del responsive no se rompa verticalmente */
+@media only screen and (max-height: 1100px) {
+  h1 {
+    font-size: 20px !important;
+    margin-top: 100px !important;
+  }
+/* en caso recordar que puedo borrar por aqui */
 
-@media screen and (min-width: 768px) {
+
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+  }  
+  .buttons button {
+    width: 244px !important;
+  }
+}
+
+
+/* @media screen and (min-width: 768px) {
   .despacho::before{
     content: "\A";
     white-space: pre;
   }
-}
+} */
 
 /* @media screen and (min-width: 430px) {
   .buttons {
@@ -134,10 +191,10 @@ footer {
 
 @media screen and (max-width: 629px) {
     .welcome {
-      font-size: 45px;
+      font-size: 55px;
     }
     .sub-title {
-        font-size: 30px;
+        font-size: 20px;
     }
   }
 
@@ -152,7 +209,7 @@ footer {
       display: flex;
       justify-content: end;
       margin-right: 15px;
-      margin-top: 15px !important;
+      margin-top: 15px;
     }
   }
 
