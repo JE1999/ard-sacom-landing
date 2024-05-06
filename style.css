@@ -45,6 +45,10 @@ nav {
   border-radius: 8px;
   font-weight: bold;
   font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .button-secondary-ard {
   width: 244px;
@@ -55,6 +59,14 @@ nav {
   font-weight: bold;
   font-size: 16px;
   border: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-primary-ard:hover, .button-secondary-ard:hover{
+  cursor: pointer;
 }
 
 footer {
@@ -101,7 +113,7 @@ footer {
       align-items: center;
       width: 100%;
     }  
-    .buttons button {
+    .buttons a {
       width: 244px !important;
     }
 }
